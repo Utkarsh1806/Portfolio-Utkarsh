@@ -50,10 +50,7 @@ const Career = () => {
               <h3>NOW</h3>
             </div>
             <p>
-              Spearheaded migration of a legacy JavaEE monolith into 10+
-              Spring Boot microservices, achieving 40% throughput improvement
-              and 35% fewer DB hits. Built multi-tenant Redis caching, async
-              JMS pipelines with Artemis, and 70+ JUnit tests at 85% coverage.
+              At Veersa Technologies, I worked as a Java Backend Engineer focused on modernizing large-scale healthcare platforms by transforming legacy JavaEE systems into distributed Spring Boot microservices. I built high-performance APIs, optimized database and caching layers, and implemented secure, scalable integrations using JMS, Redis, Liquibase, AWS services, and advanced design patterns. My work consistently improved system throughput, reduced latency, and enhanced overall reliability across multi-tenant applications.
             </p>
           </div>
         </div>

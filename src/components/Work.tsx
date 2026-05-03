@@ -55,34 +55,9 @@ const Work = () => {
         <div className="work-flex">
           {[
             {
-              name: "HealthEdge Modernization",
-              category: "Backend / Microservices",
-              tools: "Java, Spring Boot, PostgreSQL, Oracle, Artemis, Redis",
-            },
-            {
-              name: "Kipu Healthcare Scheduler",
-              category: "Distributed Systems",
-              tools: "Spring Boot, Redis, AWS Lambda, AWS SQS, Quartz, Kubernetes",
-            },
-            {
               name: "Ecoshop",
               category: "E-commerce Backend",
               tools: "Spring Boot, Spring Security, JWT, JPA, PostgreSQL, Docker",
-            },
-            {
-              name: "Async Messaging Pipelines",
-              category: "Event-Driven Architecture",
-              tools: "Spring JMS, Artemis ActiveMQ, AWS SQS, Kafka",
-            },
-            {
-              name: "Schema Migration Toolkit",
-              category: "Database / DevOps",
-              tools: "Liquibase, Flyway, Shell Script, Jenkins",
-            },
-            {
-              name: "Spring Batch ETL",
-              category: "Batch Processing",
-              tools: "Spring Batch, Hibernate, JPA, PostgreSQL",
             },
           ].map((project, index) => (
             <div className="work-box" key={index}>
@@ -98,7 +73,7 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image="/images/ecoshop.webp" alt="" />
             </div>
           ))}
         </div>
