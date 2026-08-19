@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#321a10"/>
+      <stop offset="1" stop-color="#0b080c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.18" r="0.75">
+      <stop offset="0" stop-color="#ff9f43" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#ff9f43" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <rect width="800" height="400" fill="url(#glow)"/>
+  <g fill="none" stroke="#ff9f43" stroke-opacity="0.8" stroke-width="2.5">
+    <path d="M110 110 H200 V80 H330 V110 H230"/>
+    <path d="M300 170 V140 H430 V170 H360"/>
+    <path d="M360 170 H500 V200 H430"/>
+  </g>
+  <circle cx="110" cy="110" r="6" fill="#ff9f43"/>
+  <circle cx="430" cy="170" r="6" fill="#ff9f43"/>
+  <circle cx="430" cy="200" r="6" fill="#ff9f43"/>
+  <circle cx="500" cy="200" r="6" fill="#ff9f43"/>
+  <text x="48" y="298" fill="#ff9f43" font-family="system-ui, sans-serif" font-size="20" font-weight="600" letter-spacing="4">URL SHORTENER</text>
+  <text x="46" y="352" fill="#f4f0f7" font-family="system-ui, sans-serif" font-size="54" font-weight="700">ShortLink</text>
+</svg>

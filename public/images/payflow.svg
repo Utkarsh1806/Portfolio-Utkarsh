@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a2b17"/>
+      <stop offset="1" stop-color="#0b080c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.18" r="0.75">
+      <stop offset="0" stop-color="#63e6be" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#63e6be" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <rect width="800" height="400" fill="url(#glow)"/>
+  <g transform="translate(168,56)">
+    <rect x="0" y="0" width="150" height="150" rx="26" fill="#63e6be" fill-opacity="0.08" stroke="#63e6be" stroke-opacity="0.6" stroke-width="2.5"/>
+    <text x="75" y="62" fill="#63e6be" font-family="monospace" font-size="20" text-anchor="middle">₹</text>
+    <text x="75" y="100" fill="#ffffff" font-family="system-ui, sans-serif" font-size="24" font-weight="700" text-anchor="middle">₹ 4,250</text>
+    <text x="75" y="126" fill="#63e6be" font-family="monospace" font-size="14" text-anchor="middle">approved</text>
+  </g>
+  <text x="48" y="298" fill="#63e6be" font-family="system-ui, sans-serif" font-size="20" font-weight="600" letter-spacing="4">PAYMENTS</text>
+  <text x="46" y="352" fill="#f4f0f7" font-family="system-ui, sans-serif" font-size="54" font-weight="700">PayFlow</text>
+</svg>

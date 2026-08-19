@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1a2e"/>
+      <stop offset="1" stop-color="#0b080c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.18" r="0.75">
+      <stop offset="0" stop-color="#4dabf7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#4dabf7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <rect width="800" height="400" fill="url(#glow)"/>
+  <rect width="800" height="3" fill="#4dabf7" opacity="0.6"/>
+  <circle cx="640" cy="80" r="120" fill="none" stroke="#4dabf7" stroke-opacity="0.18" stroke-width="2"/>
+  <circle cx="640" cy="80" r="80" fill="none" stroke="#4dabf7" stroke-opacity="0.12" stroke-width="2"/>
+  <rect x="48" y="48" width="72" height="72" rx="18" fill="#4dabf7" fill-opacity="0.12" stroke="#4dabf7" stroke-opacity="0.6" stroke-width="2"/>
+  <polyline points="60,84 72,84 78,70 88,98 94,84 108,84" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="48" y="298" fill="#4dabf7" font-family="system-ui, sans-serif" font-size="20" font-weight="600" letter-spacing="4">HEALTHCARE MICROSERVICES</text>
+  <text x="46" y="352" fill="#f4f0f7" font-family="system-ui, sans-serif" font-size="54" font-weight="700">HealthBridge</text>
+</svg>
